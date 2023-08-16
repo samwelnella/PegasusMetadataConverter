@@ -62,6 +62,7 @@ shortname_mapping = ({
 	'nes': 'nes',
 	'msx': 'msx',
 	'mac': 'macintosh',
+	'sega32x': 'sega32x'
 })
 	
 
@@ -148,6 +149,8 @@ def parse_emulationstation_xml(xml_file):
     				if element.tag == 'System':
     					if element.text.lower() in shortname_mapping:
     						system = shortname_mapping[element.text.lower()]
+    					elif element.text.lower() in shortname_mapping.values():
+    						system = element.text.lower()
     	#Append the Pegasus' formatted collections section to the list
     	providers.append(providersTemp)
     
@@ -209,40 +212,40 @@ def convert_date_format(input_date):
 def open_launchcfg_file(system):
     launchConfig = ''
     if system != '':
-	    try:
-	    	with open(os.path.join(os.path.dirname(inFile),'launch.cfg'), 'x') as file:
-	    		print("launch.cfg not detected. Creating file.\n")
-#	    		while True:
-	    		print("Are you using metadata file with Android? (y/n)\n")
-	    		android = input("Enter: ")
-#	    			if android != 'y' or android != 'Y' or android != 'n' or android != 'N':
-#	    				print('Please enter y or n')
-#	    				continue
-#	    			break
-	    		tree = ET.parse(os.path.join(Path.home(), 'prettyFormattedAndroidEmulatorsWithName.xml'))
-	    		root = tree.getroot()
-	    		for emulator in root.findall('Emulator'):
-	    			if emulator.find('shortname').text != system:
-	    				root.remove(emulator)
-	    		print("Which android emulator would you like to use?")
+	    if not Path(os.path.join(os.path.dirname(inFile),'launch.cfg')).is_file():
+	    	print("launch.cfg not detected. Creating file.\n")
+	    	while True:
+		    	print("Are you using metadata file with Android? (y/n)\n")
+		    	android = input("Enter: ")
+	    		if android == 'y' or android == 'Y' or android == 'n' or android == 'N':
+	    			break
+	    		else:
+	    			print('Please enter y or n')
+	    			continue
+	    	tree = ET.parse(os.path.join(Path.home(), 'prettyFormattedAndroidEmulatorsWithName.xml'))
+	    	root = tree.getroot()
+	    	for emulator in root.findall('Emulator'):
+	    		if emulator.find('shortname').text != system:
+	    			root.remove(emulator)
+	    	if len(root) > 0:
+	    		print("Which android emulator would you like to use?\n")
 	    		count = 0
 	    		for emulator in root.findall('Emulator'):
 	    			count = count + 1
 	    			print(str(count) + ") " + emulator.find('name').text + "\n")
-#	    		while True:
-	    		emulatorInput = input("Enter: ")
-#	    			try:
-	    		emulatorInput = int(emulatorInput)
-#	    			except:
-#	    				print = ('Please enter a number between 1 and ' + count)
-#	    				continue
-#	    			if emulatorInput < 1:
-#	    				print = ('Please enter a number between 1 and ' + count)
-#	    				continue
-#	    			if emulatorInput > count:
-#	    				print = ('Please enter a number between 1 and ' + count)
-#	    				continue
-#	    			break
+	    		while True:
+	    			try:
+			    		emulatorInput = int(input ("Enter: "))
+	    			except ValueError:
+	    				print('Please enter a number between 1 and ' + count)
+	    				continue
+	    			if emulatorInput < 1 or emulatorInput > count:
+	    				print('Please enter a number between 1 and ' + count)
+	    				continue
+	    			else:
+	    				break
+#	    		else:
+
 	    		emulatorInput = emulatorInput - 1
 	    		if android == 'y' or android == 'Y':
 	    			launchConfig = "shortname: " + root[emulatorInput][1].text + "\n" + "extensions: " + root[emulatorInput][2].text + "\n" + "launch: " + root[emulatorInput][3].text
@@ -254,7 +257,7 @@ def open_launchcfg_file(system):
 	    		with open(os.path.join(os.path.dirname(inFile), 'launch.cfg'), 'w') as file:
 	    			file.writelines(launchConfig)
 	#    		print(emulator)
-	    except FileExistsError:
+	    else:
 	    	print("launch.cfg detected.")
 	    	with open(os.path.join(os.path.dirname(inFile), 'launch.cfg'), 'r') as file:
 	        	launchConfig = file.read()
