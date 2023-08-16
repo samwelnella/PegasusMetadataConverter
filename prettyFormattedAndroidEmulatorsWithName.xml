@@ -1,0 +1,1738 @@
+<Emulators>
+    <Emulator>
+        <collection>CPC</collection>
+        <shortname>cpc</shortname>
+        <extensions>dsk, kcr, sna</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/crocods_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Amstrad - CPC (CrocoDS)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CPC/GX4000</collection>
+        <shortname>cpc</shortname>
+        <extensions>cdt, cpr, dsk, m3u, sna, tap, voc, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/cap32_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Amstrad - CPC/GX4000 (Caprice32)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>daphne</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/daphne_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (Daphne)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CP System I</collection>
+        <shortname>fba</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbalpha2012_cps1_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FB Alpha 2012 CPS-1)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CP System II</collection>
+        <shortname>fba</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbalpha2012_cps2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FB Alpha 2012 CPS-2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CP System III</collection>
+        <shortname>fba</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbalpha2012_cps3_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FB Alpha 2012 CPS-3)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Neo Geo</collection>
+        <shortname>neogeo</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbalpha2012_neogeo_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FB Alpha 2012 Neo Geo)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>fba</shortname>
+        <extensions>7z, iso, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbalpha2012_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FB Alpha 2012)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>fba</shortname>
+        <extensions>2352, 7z, MODE1, bin, ccd, cue, img, iso, sub, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbalpha_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FinalBurn Alpha)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>fba</shortname>
+        <extensions>7z, ccd, cue, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (FinalBurn Neo)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>hbmame</shortname>
+        <extensions>7z, chd, cmd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/hbmame_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (HBMAME)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, cmd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME - Current)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, cmd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mamearcade_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME - Current)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2000_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2000)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2003_midway_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2003 Midway)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2003_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2003)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2003_plus_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2003-Plus)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2009_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2009)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2010_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2010)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, cmd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2015_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2015)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, cmd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2016_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME 2016)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arduboy</collection>
+        <shortname>arduboy</shortname>
+        <extensions>hex</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/arduous_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arduboy (Arduous)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 2600</collection>
+        <shortname>atari2600</shortname>
+        <extensions>a26, bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/stella2014_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - 2600 (Stella 2014)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 2600</collection>
+        <shortname>atari2600</shortname>
+        <extensions>a26, bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/stella_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - 2600 (Stella)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 5200</collection>
+        <shortname>atari5200</shortname>
+        <extensions>a52, atr, atx, bin, car, cas, cdm, com, rom, xex, xfd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/atari800_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - 5200 (Atari800)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 5200</collection>
+        <shortname>atari5200</shortname>
+        <extensions>a52, bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/a5200_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - 5200 (a5200)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 7800</collection>
+        <shortname>atari7800</shortname>
+        <extensions>a78, bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/prosystem_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - 7800 (ProSystem)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Jaguar</collection>
+        <shortname>atarijaguar</shortname>
+        <extensions>abs, bin, cof, j64, jag, prg, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/virtualjaguar_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - Jaguar (Virtual Jaguar)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Lynx</collection>
+        <shortname>atarilynx</shortname>
+        <extensions>lnx, o</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_lynx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - Lynx (Beetle Lynx)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Lynx</collection>
+        <shortname>atarilynx</shortname>
+        <extensions>lnx, o</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/handy_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - Lynx (Handy)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari ST/STE/TT/Falcon</collection>
+        <shortname>atarist</shortname>
+        <extensions>dim, ipf, m3u, msa, st, stx, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/hatari_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari - ST/STE/TT/Falcon (Hatari)</name>
+    </Emulator>
+    <Emulator>
+        <collection>WonderSwan/Color</collection>
+        <shortname>wonderswancolor</shortname>
+        <extensions>pc2, ws, wsc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_wswan_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Bandai - WonderSwan/Color (Beetle Cygne)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CHIP-8</collection>
+        <shortname>chip_8</shortname>
+        <extensions>bin, ch8, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/emux_chip8_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>CHIP-8 (Emux CHIP-8)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Cave Story Game Engine</collection>
+        <shortname>nxengine</shortname>
+        <extensions>exe</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/nxengine_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Cave Story (NXEngine)</name>
+    </Emulator>
+    <Emulator>
+        <collection>ChaiLove</collection>
+        <shortname>chailove</shortname>
+        <extensions>chai, chailove</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/chailove_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>ChaiLove</name>
+    </Emulator>
+    <Emulator>
+        <collection>ColecoVision</collection>
+        <shortname>colecovision</shortname>
+        <extensions>bin, col, cv, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/gearcoleco_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Coleco - ColecoVision (Gearcoleco)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Commodore Amiga</collection>
+        <shortname>amiga</shortname>
+        <extensions>adf, fs-uae, ipf</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fsuae_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - Amiga (FS-UAE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Amiga</collection>
+        <shortname>commodore_amiga</shortname>
+        <extensions>7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/puae2021_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - Amiga (PUAE 2021)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Amiga</collection>
+        <shortname>commodore_amiga</shortname>
+        <extensions>7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/puae_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - Amiga (PUAE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Amiga</collection>
+        <shortname>commodore_amiga</shortname>
+        <extensions>adf, adz, ccd, cue, dms, hdf, ipf, iso, lha, uae, wrp, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/uae4arm_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - Amiga (UAE4ARM)</name>
+    </Emulator>
+    <Emulator>
+        <collection>C128</collection>
+        <shortname>commodore_c128</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_x128_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - C128 (VICE x128)</name>
+    </Emulator>
+    <Emulator>
+        <collection>C64</collection>
+        <shortname>c64</shortname>
+        <extensions>d64, lnx, p00, t64, x64, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/frodo_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - C64 (Frodo)</name>
+    </Emulator>
+    <Emulator>
+        <collection>C64</collection>
+        <shortname>c64</shortname>
+        <extensions>bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64, tap, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/x64sdl_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - C64 (VICE SDL)</name>
+    </Emulator>
+    <Emulator>
+        <collection>C64</collection>
+        <shortname>commodore_c64</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_x64_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - C64 (VICE x64, fast)</name>
+    </Emulator>
+    <Emulator>
+        <collection>C64</collection>
+        <shortname>commodore_c64</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_x64sc_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - C64 (VICE x64sc, accurate)</name>
+    </Emulator>
+    <Emulator>
+        <collection>C64 SuperCPU</collection>
+        <shortname>commodore_c64_supercpu</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xscpu64_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - C64 SuperCPU (VICE xscpu64)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CBM-5x0</collection>
+        <shortname>commodore_cbm5x0</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xcbm5x0_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - CBM-II 5x0 (VICE xcbm5x0)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CBM-II</collection>
+        <shortname>commodore_cbm2</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xcbm2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - CBM-II 6x0/7x0 (VICE xcbm2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PET</collection>
+        <shortname>commodore_pet</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xpet_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - PET (VICE xpet)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PLUS/4</collection>
+        <shortname>commodore_plus4</shortname>
+        <extensions>bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xplus4_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - PLUS/4 (VICE xplus4)</name>
+    </Emulator>
+    <Emulator>
+        <collection>VIC-20</collection>
+        <shortname>commodore_vic20</shortname>
+        <extensions>20, 40, 60, a0, b0, bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, rom, t64, tap, vfl, vsf, x64, x6z, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xvic_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore - VIC-20 (VICE xvic)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Cruzes</collection>
+        <shortname>cruzes</shortname>
+        <extensions>game</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/cruzes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Cruzes</name>
+    </Emulator>
+    <Emulator>
+        <collection>DOS</collection>
+        <shortname>dos</shortname>
+        <extensions>bat, com, conf, exe</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dosbox_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>DOS (DOSBox)</name>
+    </Emulator>
+    <Emulator>
+        <collection>DOS</collection>
+        <shortname>dos</shortname>
+        <extensions>bat, com, conf, cue, dosz, exe, ima, img, ins, iso, jrc, m3u, m3u8, tc, vhd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dosbox_pure_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>DOS (DOSBox-Pure)</name>
+    </Emulator>
+    <Emulator>
+        <collection>DOS</collection>
+        <shortname>dos</shortname>
+        <extensions>bat, com, conf, cue, exe, iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dosbox_svn_ce_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>DOS (DOSBox-SVN CE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>DOS</collection>
+        <shortname>dos</shortname>
+        <extensions>bat, com, conf, cue, exe, iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dosbox_svn_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>DOS (DOSBox-SVN)</name>
+    </Emulator>
+    <Emulator>
+        <collection>DOS</collection>
+        <shortname>dos</shortname>
+        <extensions>bat, com, conf, cue, exe, iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dosbox_core_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>DOS (DOSBox-core)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Dinothawr Game Engine</collection>
+        <shortname>dinothawr</shortname>
+        <extensions>game</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dinothawr_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Dinothawr</name>
+    </Emulator>
+    <Emulator>
+        <collection>DOOM Game Engine</collection>
+        <shortname>doom</shortname>
+        <extensions>iwad, pwad, wad</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/prboom_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Doom (PrBoom)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Doom 3 Game Engine</collection>
+        <shortname>doom_3</shortname>
+        <extensions>pk4</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/boom3_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Doom 3 (boom3)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Doom 3 XP Game Engine</collection>
+        <shortname>doom_3</shortname>
+        <extensions>pk4</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/boom3_xp_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Doom 3: Resurrection of Evil (boom 3 xp)</name>
+    </Emulator>
+    <Emulator>
+        <collection>BK-0010/BK-0011(M)</collection>
+        <shortname>bk</shortname>
+        <extensions>bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bk_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Elektronika - BK-0010/BK-0011(M)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Flashback Game Engine</collection>
+        <shortname>flashback</shortname>
+        <extensions>aba, lev, map, seq</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/reminiscence_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Flashback (REminiscence)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Vectrex</collection>
+        <shortname>vectrex</shortname>
+        <extensions>bin, vec</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vecx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>GCE - Vectrex (vecx)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Music</collection>
+        <shortname>game_music</shortname>
+        <extensions>ay, gbs, gym, hes, kss, nsf, nsfe, sap, spc, vgm, vgz, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/gme_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Music Emu</name>
+    </Emulator>
+    <Emulator>
+        <collection>J2ME</collection>
+        <shortname>j2me</shortname>
+        <extensions>jar</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/freej2me_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>J2ME (FreeJ2ME)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Java ME</collection>
+        <shortname>J2ME</shortname>
+        <extensions>jad, jam, jar, kjx, sqc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/squirreljme_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Java ME (SquirrelJME)</name>
+    </Emulator>
+    <Emulator>
+        <collection>LowRes NX</collection>
+        <shortname>lowresnx</shortname>
+        <extensions>nx</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/lowresnx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>LowRes NX</name>
+    </Emulator>
+    <Emulator>
+        <collection>Lutro</collection>
+        <shortname>lutro</shortname>
+        <extensions>love, lua, lutro</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/lutro_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Lua Engine (Lutro)</name>
+    </Emulator>
+    <Emulator>
+        <collection>MPV</collection>
+        <shortname>movie</shortname>
+        <extensions>3g2, 3gp, asf, avi, divx, f4f, f4v, flac, flv, m2p, m2ts, m4a, mkv, mov, mp3, mp4, mpeg, mpg, mxf, ogg, ogm, ps, ts, vob, wav, webm, wma, wmv</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mpv_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>MPV</name>
+    </Emulator>
+    <Emulator>
+        <collection>MSX/SVI/ColecoVision/SG-1000</collection>
+        <shortname>msx</shortname>
+        <extensions>cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bluemsx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>MSX/SVI/ColecoVision/SG-1000 (blueMSX)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Magnavox Odyssey2 / Phillips Videopac+</collection>
+        <shortname>odyssey2</shortname>
+        <extensions>bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/o2em_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Intellivision</collection>
+        <shortname>intellivision</shortname>
+        <extensions>bin, int, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/freeintv_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Mattel - Intellivision (FreeIntv)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Mega Duck</collection>
+        <shortname>mega_duck</shortname>
+        <extensions>bin</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/sameduck_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Mega Duck / Cougar Boy (SameDuck)</name>
+    </Emulator>
+    <Emulator>
+        <collection>MSX</collection>
+        <shortname>msx</shortname>
+        <extensions>cas, dsk, fdi, m3u, mx1, mx2, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fmsx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Microsoft - MSX (fMSX)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Xbox</collection>
+        <shortname>xbox</shortname>
+        <extensions>iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/directxbox_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Microsoft - Xbox (DirectXbox)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Mr.Boom</collection>
+        <shortname>bomberman</shortname>
+        <extensions>desktop</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mrboom_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Mr.Boom (Bomberman)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Multi (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mess2015_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Multi (MESS 2015)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Multi (various)</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/ume2015_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Multi (UME 2015)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC Engine/PCE-CD</collection>
+        <shortname>pcengine</shortname>
+        <extensions>ccd, chd, cue, m3u, pce, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_pce_fast_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC Engine / CD (Beetle PCE FAST)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC Engine/SuperGrafx/CD</collection>
+        <shortname>pcengine</shortname>
+        <extensions>ccd, chd, cue, m3u, pce, sgx, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_pce_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC Engine SuperGrafx</collection>
+        <shortname>pcengine</shortname>
+        <extensions>ccd, chd, cue, pce, sgx</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_supergrafx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC-8000 / PC-8800 series</collection>
+        <shortname>pc_88</shortname>
+        <extensions>d88, m3u, u88</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/quasi88_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC-8000 / PC-8800 series (QUASI88)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC-98</collection>
+        <shortname>pc_98</shortname>
+        <extensions>2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/np2kai_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC-98 (Neko Project II Kai)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC-98</collection>
+        <shortname>pc_98</shortname>
+        <extensions>2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/nekop2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC-98 (Neko Project II)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC-FX</collection>
+        <shortname>pc_fx</shortname>
+        <extensions>ccd, chd, cue, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_pcfx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>NEC - PC-FX (Beetle PC-FX)</name>
+    </Emulator>
+    <Emulator>
+        <collection>3DS</collection>
+        <shortname>3ds</shortname>
+        <extensions>3ds, 3dsx, app, axf, cci, cxi, elf</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/citra2018_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - 3DS (Citra 2018)</name>
+    </Emulator>
+    <Emulator>
+        <collection>3DS</collection>
+        <shortname>3ds</shortname>
+        <extensions>3ds, 3dsx, app, axf, cci, cxi, elf</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/citra_canary_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - 3DS (Citra Canary/Experimental)</name>
+    </Emulator>
+    <Emulator>
+        <collection>3DS</collection>
+        <shortname>3ds</shortname>
+        <extensions>3ds, 3dsx, app, axf, cci, cxi, elf</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/citra_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - 3DS (Citra)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo DS</collection>
+        <shortname>nds</shortname>
+        <extensions>bin, nds</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/desmume2015_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - DS (DeSmuME 2015)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo DS</collection>
+        <shortname>nds</shortname>
+        <extensions>bin, nds</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/desmume_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - DS (DeSmuME)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo DS</collection>
+        <shortname>nds</shortname>
+        <extensions>dsi, nds</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/melonds_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - DS (melonDS)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>bin, gb, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/emux_gb_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy / Color (Emux GB)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>dmg, gb, gbc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/gambatte_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy / Color (Gambatte)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>cgb, dmg, gb, gbc, sgb</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/gearboy_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy / Color (Gearboy)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>gb, gbc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/sameboy_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy / Color (SameBoy)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>gb, gbc, sgb</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/tgbdual_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy / Color (TGB Dual)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>gb, gbc, gbs</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fixgb_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy / Color (fixGB)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>agb, bin, gba</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_gba_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (Beetle GBA)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>gba</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/meteor_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (Meteor)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>agb, bin, gba, gbz</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/tempgba_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (TempGBA)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>gba</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vba_next_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (VBA Next)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color/Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>cgb, dmg, gb, gba, gbc, sgb</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vbam_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (VBA-M)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>bin, gba</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/gpsp_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (gpSP)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color/Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>gb, gba, gbc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mgba_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Game Boy Advance (mGBA)</name>
+    </Emulator>
+    <Emulator>
+        <collection>GameCube / Wii</collection>
+        <shortname>gc</shortname>
+        <extensions>ciso, dol, elf, gcm, gcz, iso, wad, wbfs</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dolphin_launcher_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - GameCube / Wii (Dolphin Launcher)</name>
+    </Emulator>
+    <Emulator>
+        <collection>GameCube / Wii</collection>
+        <shortname>gc</shortname>
+        <extensions>ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/dolphin_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - GameCube / Wii (Dolphin)</name>
+    </Emulator>
+    <Emulator>
+        <collection>GameCube / Wii</collection>
+        <shortname>gc</shortname>
+        <extensions>ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/ishiiruka_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - GameCube / Wii (Ishiiruka)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>bin, nes, rom</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/emux_nes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (Emux NES)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>fds, nes, unf, unif</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fceumm_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (FCEUmm)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>fds, nes, unf, unif</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mesen_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (Mesen)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>fds, nes, unf, unif</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/nestopia_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (Nestopia UE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>nes</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/quicknes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (QuickNES)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>nes</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bnes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (bnes)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>fds, nes, nsf, qd</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fixnes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - NES / Famicom (fixNES)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, u1, v64, z64</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mupen64plus_next_develop_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Nintendo 64 (Mupen64Plus-Next Develop)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, u1, v64, z64</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mupen64plus_next_gles2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Nintendo 64 (Mupen64Plus-Next GLES2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, u1, v64, z64</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mupen64plus_next_gles3_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Nintendo 64 (Mupen64Plus-Next GLES3)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, u1, v64, z64</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mupen64plus_next_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Nintendo 64 (Mupen64Plus-Next)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, ndd, u1, v64, z64</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/parallel_n64_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Nintendo 64 (ParaLLEl N64)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, ndd, u1, v64, z64</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/parallel_n64_debug_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Nintendo 64 (ParaLLEl) (Debug)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Pokemon Mini</collection>
+        <shortname>pokemon_mini</shortname>
+        <extensions>min</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pokemini_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Pokemon Mini (PokeMini)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, gb, gbc, rom, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/higan_sfc_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / Famicom (higan Accuracy)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, gb, gbc, rom, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/higan_sfc_balanced_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / Famicom (nSide Balanced)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bsx, dx2, fig, gd3, gd7, sfc, smc, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_supafaust_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Beetle Supafaust)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bs, fig, sfc, smc, st</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_snes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Beetle bsnes)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bs, fig, sfc, smc, st, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/snes9x_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Snes9x - Current)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bsx, dx2, fig, gd3, gd7, sfc, smc, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/snes9x2002_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Snes9x 2002)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bsx, dx2, fig, gd3, gd7, sfc, smc, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/snes9x2005_plus_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Snes9x 2005 Plus)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bsx, dx2, fig, gd3, gd7, sfc, smc, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/snes9x2005_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Snes9x 2005)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bsx, dx2, fig, gd3, gd7, sfc, smc, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/snes9x2010_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (Snes9x 2010)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes2014_accuracy_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes 2014 Accuracy)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes2014_balanced_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes 2014 Balanced)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes2014_performance_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes 2014 Performance)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_cplusplus98_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes C++98 (v085))</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bs, gb, gbc, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>gb, gbc, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_hd_beta_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes-hd beta)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_mercury_accuracy_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes-mercury Accuracy)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_mercury_balanced_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes-mercury Balanced)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, sfc, smc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_mercury_performance_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC (bsnes-mercury Performance)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System / Game Boy / Game Boy Color</collection>
+        <shortname>snes</shortname>
+        <extensions>bs, fig, gb, gbc, sfc, smc, swc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mesen-s_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Virtual Boy</collection>
+        <shortname>virtualboy</shortname>
+        <extensions>bin, vb, vboy</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_vb_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo - Virtual Boy (Beetle VB)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Oberon RISC machine</collection>
+        <shortname>oberon</shortname>
+        <extensions>dsk</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/oberon_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Oberon RISC Emulator</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC</collection>
+        <shortname>pc</shortname>
+        <extensions>bat, com, conf, exe</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcem_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PC (PCem)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PICO8</collection>
+        <shortname>pico8</shortname>
+        <extensions>p8, png</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/retro8_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PICO-8 (Retro8)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Palm OS</collection>
+        <shortname>palm</shortname>
+        <extensions>img, pdb, pqa, prc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mu_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Palm OS (Mu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CD-i</collection>
+        <shortname>cdi</shortname>
+        <extensions>chd, iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/same_cdi_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Philips - CDi (SAME CDi)</name>
+    </Emulator>
+    <Emulator>
+        <collection>CDi</collection>
+        <shortname>cdi2015</shortname>
+        <extensions>chd</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/cdi2015_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Philips CDi (CDi 2015)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Music</collection>
+        <shortname>music</shortname>
+        <extensions>cdg</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pocketcdg_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PocketCDG</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake Game Engine</collection>
+        <shortname>quake_1</shortname>
+        <extensions>pak</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/tyrquake_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Quake (TyrQuake)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake II Game Engine</collection>
+        <shortname>quake_2</shortname>
+        <extensions>pak</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vitaquake2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Quake II (vitaQuake 2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake II Game Engine</collection>
+        <shortname>quake_2</shortname>
+        <extensions>pak</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vitaquake2-rogue_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Quake II - Ground Zero (vitaQuake 2 [Rogue])</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake II Game Engine</collection>
+        <shortname>quake_2</shortname>
+        <extensions>pak</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vitaquake2-xatrix_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Quake II - The Reckoning (vitaQuake 2 [Xatrix])</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake II Game Engine</collection>
+        <shortname>quake_2</shortname>
+        <extensions>pak</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vitaquake2-zaero_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Quake II - Zaero (vitaQuake 2 [Zaero])</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake 3 Game Engine</collection>
+        <shortname>quake_3</shortname>
+        <extensions>pk3</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vitaquake3_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Quake III: Arena (vitaQuake 3)</name>
+    </Emulator>
+    <Emulator>
+        <collection>RPG Maker 2000/2003 Game Engine</collection>
+        <shortname>rpgmaker</shortname>
+        <extensions>easyrpg, ldb, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/easyrpg_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>RPG Maker 2000/2003 (EasyRPG)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Redbook</collection>
+        <shortname>redbook</shortname>
+        <extensions>bin, cue</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/redbook_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Redbook Audio Player</name>
+    </Emulator>
+    <Emulator>
+        <collection>Rick Dangerous Game Engine</collection>
+        <shortname>xrick</shortname>
+        <extensions>zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/xrick_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Rick Dangerous (XRick)</name>
+    </Emulator>
+    <Emulator>
+        <collection>SAM coupe</collection>
+        <shortname>samcoupe</shortname>
+        <extensions>dsk, mgt, sad, sbt</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/simcp_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>SAM Coupe (SimCoupe)</name>
+    </Emulator>
+    <Emulator>
+        <collection>SNK Neo Geo CD</collection>
+        <shortname>neogeocd</shortname>
+        <extensions>chd, cue</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/neocd_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>SNK - Neo Geo CD (NeoCD)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Neo Geo Pocket (Color)</collection>
+        <shortname>neo_geo_pocket</shortname>
+        <extensions>ngc, ngp, ngpc, npc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_ngp_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>SNK - Neo Geo Pocket / Color (Beetle NeoPop)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Neo Geo Pocket (Color)</collection>
+        <shortname>neo_geo_pocket</shortname>
+        <extensions>ngc, ngp, ngpc, npc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/race_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>SNK - Neo Geo Pocket / Color (RACE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game engine</collection>
+        <shortname>scummvm</shortname>
+        <extensions>#02, $00, (A), (a), (b), 0, 000, 001, 002, 003, 004, 005, 006, 007, 009, 025, 1, 101, 102, 1C, 1c, 2, 2 US, 25, 3, 4, 455, 5, 512, 6, 8, 99, ACX, ADF, ADV, AGA, ALD, ALL, ANG, AP, ASK, AUD, AVD, AVI, BAT, BIN, BLB, BMV, BND, BRO, BSF, BUN, C, C00, C06, C35, CAB, CAT, CC, CD1, CEL, CFG, CG1, CGA, CHK, CLG, CLT, CLU, CNF, CNV, COD, CPS, CRC, CRF, CSC, CUP, CUR, D$$, D00, DAT, DEF, DFW, DIR, DMU, DNR, DR1, DRV, DSK, DXR, EGA, EMC, ENC, EX1, EXE, FDT, FKR, FNT, FON, FRENCH, GAM, GDA, GERMAN, GME, GRA, GRP, GRV, H$$, HAG, HE0, HE1, HE2, HEB, HELLO, HEP, HEX, HPF, HQR, HRC, HRS, IDX, IMG, IMS, IN, INF, INI, ITK, L9, LA0, LAB, LB, LEC, LFL, LIB, LIC, LNG, LZC, M4B, MAC, MAP, MDT, MHK, MID, MIX, MMM, MOR, MPC, MS0, MSG, NL, OBJ, OGG, OPT, ORB, OUT, OVL, OVR, P56, PAK, PAL, PAR, PAT, PGM, PH1, PIC, PKD, PMV, PRC, PRG, Pat, QA, R00, R02, RED, RES, RL, RL2, RLB, ROM, RRM, RSC, SAV, SCN, SCR, SEQ, SET, SHP, SHR, SM0, SM1, SND, SNG, SOG, SOL, SOU, SOUND, SPP, SQU, STK, STR, SYN, SYS, SYS16, TAB, TEX, TLK, TOC, TRS, TXT, Text, V16, V56, VB, VGA, VMD, VOC, VQA, VXD, W16, W32, WAV, WIN, Z, Z5, ZFS, a3c, acd, acx, add, alr, asl, avi, b25c, bin, blb, blorb, bro, cab, cas, cat, cel, cup, d$$, d64, dat, dcp, dnr, doc, dsk, dxr, exe, flac, gam, game, gblorb, gfx, gmp, he0, he1, he2, hex, img, info, ini, j2, jpg, lab, lfl, m4b, mac, mhk, mma, mp3, mpc, msd, nbf, nib, nl, ogg, pat, pic, prg, rom, rsc, scumm, scummvm, sdb, slg, st, str, sub, sym, t3, tab, taf, txt, ulx, vga, voc, wav, win, woz, xfd, z1, z2, z3, z4, z4f, z5, z6, z8, zblorb, zfs, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>ScummVM</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Dreamcast</collection>
+        <shortname>dreamcast</shortname>
+        <extensions>cdi, chd, gdi</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/retrodream_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Dreamcast (RetroDream)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Dreamcast</collection>
+        <shortname>dreamcast</shortname>
+        <extensions>7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_gles2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Dreamcast/Naomi (Flycast GLES2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Dreamcast</collection>
+        <shortname>dreamcast</shortname>
+        <extensions>7z, bin, cdi, chd, cue, dat, elf, gdi, lst, m3u, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Dreamcast/Naomi (Flycast)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega 8-bit</collection>
+        <shortname>mastersystem</shortname>
+        <extensions>bin, col, gg, rom, sg, sms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/smsplus_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - MS/GG (SMS Plus GX)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega 8/16-bit (Various)</collection>
+        <shortname>megadrive</shortname>
+        <extensions>68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, sg, sgd, smd, sms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/genesis_plus_gx_wide_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega 8/16-bit (Various)</collection>
+        <shortname>megadrive</shortname>
+        <extensions>68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, sg, sgd, smd, sms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/genesis_plus_gx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - MS/GG/MD/CD (Genesis Plus GX)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega 8/16-bit + 32X (Various)</collection>
+        <shortname>megadrive</shortname>
+        <extensions>32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/picodrive_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - MS/GG/MD/CD/32X (PicoDrive)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega 8-bit (MS/GG/SG-1000)</collection>
+        <shortname>mastersystem</shortname>
+        <extensions>bin, gg, rom, sg, sms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/gearsystem_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - MS/GG/SG-1000 (Gearsystem)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Master System</collection>
+        <shortname>mastersystem</shortname>
+        <extensions>bin, bms, rom, sms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/emux_sms_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Master System (Emux SMS)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Genesis</collection>
+        <shortname>megadrive</shortname>
+        <extensions>68k, bin, gen, md, sgd, smd</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/blastem_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Mega Drive - Genesis (BlastEm)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>ccd, chd, cue, m3u, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_saturn_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Saturn (Beetle Saturn)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>bin, ccd, chd, cue, iso, mds, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/yabasanshiro_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Saturn (YabaSanshiro)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>bin, ccd, chd, cue, iso, m3u, mds, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/yabause_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Saturn (Yabause)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>ccd, chd, cue, iso, m3u, mds, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/kronos_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega - Saturn/ST-V (Kronos)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sharp X68000</collection>
+        <shortname>sharp_x68000</shortname>
+        <extensions>2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/px68k_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sharp - X68000 (PX68k)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sharp X1</collection>
+        <shortname>sharpx1</shortname>
+        <extensions>2d, 2hd, 88d, cmd, d88, dup, dx1, hdm, tap, tfd, xdf, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/x1_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sharp X1 (X Millennium)</name>
+    </Emulator>
+    <Emulator>
+        <collection>ZX81</collection>
+        <shortname>zx81</shortname>
+        <extensions>p, t81, tzx</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/81_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sinclair - ZX 81 (EightyOne)</name>
+    </Emulator>
+    <Emulator>
+        <collection>ZX Spectrum (various)</collection>
+        <shortname>zxspectrum</shortname>
+        <extensions>dsk, rzx, scl, tap, trd, tzx, z80, zip</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/fuse_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sinclair - ZX Spectrum (Fuse)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>ccd, chd, cue, exe, m3u, pbp, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_psx_hw_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (Beetle PSX HW)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>ccd, chd, cue, exe, m3u, pbp, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_psx_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (Beetle PSX)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/duckstation_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (DuckStation)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, ccd, chd, cue, img, m3u, mdf, pbp, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (PCSX ReARMed)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, chd, cue, img, mdf, pbp, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcsx_rearmed_interpreter_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (PCSX ReARMed) [Interpreter]</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, chd, cue, img, m3u, mdf, pbp, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcsx_rearmed_neon_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (PCSX ReARMed) [NEON]</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, cue, img, m3u, mdf, pbp, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcsx1_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (PCSX1)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>ccd, cue, exe, m3u, toc</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/rustation_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (Rustation)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/swanstation_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation (SwanStation)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sony PlayStation 2</collection>
+        <shortname>ps2</shortname>
+        <extensions>bin, chd, ciso, cso, dump, elf, gz, img, iso, m3u, mdf, nrg</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcsx2_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation 2 (PCSX2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sony PlayStation 2</collection>
+        <shortname>ps2</shortname>
+        <extensions>chd, cso, cue, elf, iso, isz</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/play_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation 2 (Play!)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PSP</collection>
+        <shortname>psp</shortname>
+        <extensions>cso, elf, iso, pbp, prx</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/ppsspp_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sony - PlayStation Portable (PPSSPP)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Quake 3 Game Engine</collection>
+        <shortname>quake_3</shortname>
+        <extensions>pk3</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vitavoyager_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Star Trek: Voyager - Elite Force (vitaVoyager)</name>
+    </Emulator>
+    <Emulator>
+        <collection>TIC-80</collection>
+        <shortname>tic80</shortname>
+        <extensions>tic</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/tic80_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>TIC-80</name>
+    </Emulator>
+    <Emulator>
+        <collection>3DO</collection>
+        <shortname>3do</shortname>
+        <extensions>bin, chd, cue, iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/4do_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>The 3DO Company - 3DO (4DO)</name>
+    </Emulator>
+    <Emulator>
+        <collection>3DO</collection>
+        <shortname>3do</shortname>
+        <extensions>bin, chd, cue, iso</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/opera_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>The 3DO Company - 3DO (Opera)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Classic Tomb Raider engine</collection>
+        <shortname>openlara</shortname>
+        <extensions>phd, psx, tr2</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/openlara_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Tomb Raider (OpenLara)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Uzebox</collection>
+        <shortname>uzebox</shortname>
+        <extensions>uze</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/uzem_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Uzebox (Uzem)</name>
+    </Emulator>
+    <Emulator>
+        <collection>SEGA Visual Memory Unit</collection>
+        <shortname>segavmu</shortname>
+        <extensions>bin, dci, vms</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/vemulator_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>VeMUlator</name>
+    </Emulator>
+    <Emulator>
+        <collection>WASM-4</collection>
+        <shortname>wasm4</shortname>
+        <extensions>wasm</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/wasm4_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>WASM-4</name>
+    </Emulator>
+    <Emulator>
+        <collection>Supervision</collection>
+        <shortname>supervision</shortname>
+        <extensions>bin, sv</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/potator_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Watara - Supervision (Potator)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Wolfenstein 3D Game Engine</collection>
+        <shortname>wolfenstein3d</shortname>
+        <extensions>exe, n3d, pk3, sdm, sod, wl1, wl6</extensions>
+        <launch>am start-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture-e ROM {file.path}-e LIBRETRO /data/data/com.retroarch.aarch64/cores/ecwolf_libretro_android.so-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg-e QUITFOCUS--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Wolfenstein 3D (ECWolf)</name>
+    </Emulator>
+    <Emulator>
+        <collection>3DO</collection>
+        <shortname>3do</shortname>
+        <extensions>bin, chd, cue, iso</extensions>
+        <launch>am start-n ru.vastness.altmer.real3doplayer/.MainActivity-a android.intent.action.VIEW-e cd "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>3DO (Real3DOPlayer)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade</collection>
+        <shortname>mame</shortname>
+        <extensions>7z, chd, cmd, zip</extensions>
+        <launch>am start-n com.seleuco.mame4droid/.MAME4droid-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade (MAME4droid)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Arcade/CPS/Neo-Geo</collection>
+        <shortname>fba</shortname>
+        <extensions>2352, 7z, MODE1, bin, ccd, cue, img, iso, sub, zip</extensions>
+        <launch>am start-n com.explusalpha.NeoEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Arcade/CPS/Neo-Geo (Neo.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 2600</collection>
+        <shortname>atari2600</shortname>
+        <extensions>a26, bin</extensions>
+        <launch>am start-n com.explusalpha.A2600Emu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari 2600 (2600.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Atari 2600</collection>
+        <shortname>atari2600</shortname>
+        <extensions>a26, bin</extensions>
+        <launch>am start-n com.androidemu.atari/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Atari 2600 (Ataroid)</name>
+    </Emulator>
+    <Emulator>
+        <collection>ColecoVision</collection>
+        <shortname>colecovision</shortname>
+        <extensions>bin, col, cv, rom</extensions>
+        <launch>am start-n com.fms.colem.deluxe/com.fms.emulib.MainActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>ColecoVision (ColEm Deluxe)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Commodore 64</collection>
+        <shortname>c64</shortname>
+        <extensions>bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, lnx, p00, prg, t64, tap, x64, x6z, zip</extensions>
+        <launch>am start-n com.explusalpha.C64Emu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Commodore 64 (C64.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb</extensions>
+        <launch>am start-n com.explusalpha.GbaEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Boy Advance (GBA.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb</extensions>
+        <launch>am start-n com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Boy Advance (MyBoy! Free)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy Advance</collection>
+        <shortname>gba</shortname>
+        <extensions>agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb</extensions>
+        <launch>am start-n com.fastemulator.gba/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Boy Advance (MyBoy!)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>bin, cgb, dmg, gb, gbc, gbs, rom, sgb</extensions>
+        <launch>am start-n com.explusalpha.GbcEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Boy/Game Boy Color (GBC.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>bin, cgb, dmg, gb, gbc, gbs, rom, sgb</extensions>
+        <launch>am start-n com.androidemu.gbc/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Boy/Game Boy Color (GBCoid)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Game Boy/Game Boy Color</collection>
+        <shortname>gb</shortname>
+        <extensions>bin, cgb, dmg, gb, gbc, gbs, rom, sgb</extensions>
+        <launch>am start-n com.fastemulator.gbc/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Game Boy/Game Boy Color (My OldBoy!)</name>
+    </Emulator>
+    <Emulator>
+        <collection>GameCube / Wii</collection>
+        <shortname>gc</shortname>
+        <extensions>ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs</extensions>
+        <launch>am start-n org.dolphinemu.dolphinemu/.ui.main.MainActivity-a android.intent.action.VIEW-e AutoStartFile "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>GameCube / Wii (Dolphin)</name>
+    </Emulator>
+    <Emulator>
+        <collection>GameCube / Wii</collection>
+        <shortname>gc</shortname>
+        <extensions>ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs</extensions>
+        <launch>am start-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity-a android.intent.action.VIEW-e AutoStartFile "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>GameCube / Wii (Dolphin, Retroid fork)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Jaguar</collection>
+        <shortname>atarijaguar</shortname>
+        <extensions>abs, bin, cof, j64, jag, prg, rom</extensions>
+        <launch>am start-n ru.vastness.altmer.iratajaguar/.MainActivity-a android.intent.action.VIEW-e rom "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Jaguar (IrataJaguar)</name>
+    </Emulator>
+    <Emulator>
+        <collection>MSX</collection>
+        <shortname>msx</shortname>
+        <extensions>cas, col, dsk, fdi, m3u, mx1, mx2, ri, rom, sc, sg</extensions>
+        <launch>am start-n com.explusalpha.MsxEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>MSX (MSX.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Neo Geo Pocket (Color)</collection>
+        <shortname>neo_geo_pocket</shortname>
+        <extensions>ngc, ngp, ngpc, npc</extensions>
+        <launch>am start-n com.explusalpha.NgpEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Neo Geo Pocket (Color) (NGP.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 3DS</collection>
+        <shortname>3ds</shortname>
+        <extensions>3ds, 3dsx, app, axf, cci, cxi, elf</extensions>
+        <launch>am start-n org.citra.emu/.ui.main.MainActivity-a android.intent.action.VIEW-e GamePath "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo 3DS (Citra MMJ)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, ndd, u1, v64, z64</extensions>
+        <launch>am start-n paulscode.android.mupen64plusae/.MainActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo 64 (Mupen64 Plus AE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, ndd, u1, v64, z64</extensions>
+        <launch>am start-n org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo 64 (Mupen64 Plus FZ Pro)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo 64</collection>
+        <shortname>n64</shortname>
+        <extensions>bin, n64, ndd, u1, v64, z64</extensions>
+        <launch>am start-n org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo 64 (Mupen64 Plus FZ)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo DS</collection>
+        <shortname>nds</shortname>
+        <extensions>bin, dsi, nds</extensions>
+        <launch>am start-n com.dsemu.drastic/.DraSticActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo DS (DraStic)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>bin, fds, nes, nsf, qd, rom, unf, unif</extensions>
+        <launch>am start-n com.explusalpha.NesEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo Entertainment System (NES.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Nintendo Entertainment System</collection>
+        <shortname>nes</shortname>
+        <extensions>bin, fds, nes, nsf, qd, rom, unf, unif</extensions>
+        <launch>am start-n com.androidemu.nes/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Nintendo Entertainment System (NESoid)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PC Engine/SuperGrafx/CD</collection>
+        <shortname>pcengine</shortname>
+        <extensions>ccd, chd, cue, m3u, pce, sgx, toc</extensions>
+        <launch>am start-n com.explusalpha.PceEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PC Engine/SuperGrafx/CD (PCE.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, ccd, chd, cue, ecm, exe, img, iso, m3u, mdf, mds, pbp, psexe, psf, toc</extensions>
+        <launch>am start-n com.github.stenzek.duckstation/.EmulationActivity-e bootPath "{file.path}"--ez resumeState 0--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation (DuckStation)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, ccd, chd, cue, ecm, exe, img, iso, m3u, mdf, mds, pbp, psexe, psf, toc</extensions>
+        <launch>am start-n com.emulator.fpse/.Main-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation (FPSE)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, ccd, chd, cue, ecm, exe, img, iso, m3u, mdf, mds, pbp, psexe, psf, toc</extensions>
+        <launch>am start-n com.emulator.fpse64/.Main-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation (FPSE64)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation</collection>
+        <shortname>psx</shortname>
+        <extensions>bin, cbn, ccd, chd, cue, ecm, exe, img, iso, m3u, mdf, mds, pbp, psexe, psf, toc</extensions>
+        <launch>am start-n com.epsxe.ePSXe/.ePSXe-a android.intent.action.MAIN-e com.epsxe.ePSXe.isoName "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation (ePSXe)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation 2</collection>
+        <shortname>ps2</shortname>
+        <extensions>bin, chd, ciso, cso, cue, dump, elf, gz, img, iso, isz, m3u, mdf, nrg</extensions>
+        <launch>am start-n xyz.aethersx2.android/.EmulationActivity-a android.intent.action.MAIN-e bootPath "{file.documenturi}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation 2 (AetherSX2)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation Portable</collection>
+        <shortname>psp</shortname>
+        <extensions>cso, elf, iso, pbp, prx</extensions>
+        <launch>am start-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity-a android.intent.action.VIEW-d "{file.documenturi}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation Portable (PPSSPP Gold)</name>
+    </Emulator>
+    <Emulator>
+        <collection>PlayStation Portable</collection>
+        <shortname>psp</shortname>
+        <extensions>cso, elf, iso, pbp, prx</extensions>
+        <launch>am start-n org.ppsspp.ppsspp/.PpssppActivity-a android.intent.action.VIEW-d "{file.documenturi}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>PlayStation Portable (PPSSPP)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>bin, ccd, chd, cue, iso, m3u, mds, toc, zip</extensions>
+        <launch>am start-n org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause-a android.intent.action.VIEW-e org.uoyabause.android.FileNameEx "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Saturn (Yaba Sanshiro 2 Pro)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>bin, ccd, chd, cue, iso, m3u, mds, toc, zip</extensions>
+        <launch>am start-n org.uoyabause.android.pro/org.uoyabause.android.Yabause-a android.intent.action.VIEW-e org.uoyabause.android.FileNameEx "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Saturn (Yaba Sanshiro Pro)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Saturn</collection>
+        <shortname>saturn</shortname>
+        <extensions>bin, ccd, chd, cue, iso, m3u, mds, toc, zip</extensions>
+        <launch>am start-n org.uoyabause.android/.Yabause-a android.intent.action.VIEW-e org.uoyabause.android.FileNameEx "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Saturn (Yaba Sanshiro)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Dreamcast</collection>
+        <shortname>dreamcast</shortname>
+        <extensions>7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip</extensions>
+        <launch>am start-n com.flycast.emulator/com.reicast.emulator.MainActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega Dreamcast (Flycast)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Dreamcast</collection>
+        <shortname>dreamcast</shortname>
+        <extensions>7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip</extensions>
+        <launch>am start-n com.reicast.emulator/.MainActivity-a android.intent.action.VIEW-d "{file.path}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega Dreamcast (Reicast)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Dreamcast</collection>
+        <shortname>dreamcast</shortname>
+        <extensions>7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip</extensions>
+        <launch>am start-n io.recompiled.redream/.MainActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega Dreamcast (redream)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Genesis/MegaDrive</collection>
+        <shortname>megadrive</shortname>
+        <extensions>32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms</extensions>
+        <launch>am start-n com.androidemu.gens/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega Genesis/MegaDrive (Gensoid)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Genesis/MegaDrive</collection>
+        <shortname>megadrive</shortname>
+        <extensions>32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms</extensions>
+        <launch>am start-n com.explusalpha.MdEmu/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega Genesis/MegaDrive (MD.emu)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Sega Master System</collection>
+        <shortname>mastersystem</shortname>
+        <extensions>bin, bms, col, gg, rom, sg, sms</extensions>
+        <launch>am start-n com.androidemu.gg/.EmulatorActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Sega Master System (Gearoid)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc</extensions>
+        <launch>am start-n com.explusalpha.Snes9xPlus/com.imagine.BaseActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Super Nintendo Entertainment System (Snes9xPlus)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc</extensions>
+        <launch>am start-n com.bubblezapgames.supergnes_lite/com.bubblezapgames.supergnes.IntentFilterActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Super Nintendo Entertainment System (SuperRetro16 Lite)</name>
+    </Emulator>
+    <Emulator>
+        <collection>Super Nintendo Entertainment System</collection>
+        <shortname>snes</shortname>
+        <extensions>bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc</extensions>
+        <launch>am start-n com.bubblezapgames.supergnes/.IntentFilterActivity-a android.intent.action.VIEW-d "{file.uri}"--activity-clear-task--activity-clear-top--activity-no-history</launch>
+        <name>Super Nintendo Entertainment System (SuperRetro16)</name>
+    </Emulator>
+</Emulators>
